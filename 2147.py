@@ -5,13 +5,11 @@ Escreva a sua solução aqui
 Code your solution here
 Escriba su solución aquí
 '''
-from decimal import Decimal
 
 
 def main():
-    a, b = map(Decimal, input().split())
-    q, r = int(Decimal(a / b)), int(Decimal(a % b))
-    print(q, r)
+    for a in range(int(input())):
+        print('{:.2f}'.format(len(input()) / 100))
 
 
 if __name__ == '__main__':

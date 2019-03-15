@@ -5,13 +5,16 @@ Escreva a sua solução aqui
 Code your solution here
 Escriba su solución aquí
 '''
-from decimal import Decimal
 
 
 def main():
-    a, b = map(Decimal, input().split())
-    q, r = int(Decimal(a / b)), int(Decimal(a % b))
-    print(q, r)
+    lista = []
+    while True:
+        try:
+            lista.append(int(input()) - 1)
+        except EOFError:
+            break
+    print(*lista, sep='\n')
 
 
 if __name__ == '__main__':

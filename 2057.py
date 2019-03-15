@@ -5,13 +5,12 @@ Escreva a sua solução aqui
 Code your solution here
 Escriba su solución aquí
 '''
-from decimal import Decimal
 
 
 def main():
-    a, b = map(Decimal, input().split())
-    q, r = int(Decimal(a / b)), int(Decimal(a % b))
-    print(q, r)
+    horas = list(range(24))
+    somar = map(int, input().split())
+    print(horas[sum(somar) % 24])
 
 
 if __name__ == '__main__':

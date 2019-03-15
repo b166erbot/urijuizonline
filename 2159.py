@@ -5,13 +5,13 @@ Escreva a sua solução aqui
 Code your solution here
 Escriba su solución aquí
 '''
-from decimal import Decimal
+from math import log
 
 
 def main():
-    a, b = map(Decimal, input().split())
-    q, r = int(Decimal(a / b)), int(Decimal(a % b))
-    print(q, r)
+    n = int(input())
+    if 17 <= n <= pow(10, 9):
+        print('{:.1f} {:.1f}'.format(n / log(n), (n / log(n)) * 1.25506))
 
 
 if __name__ == '__main__':
