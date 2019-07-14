@@ -1,3 +1,2 @@
 # urijuizonline
-um repositório onde eu salvarei todas as respostas produzidas por mim, bernardo
-freitas, do site urionlinejudge.com.br
+um repositório onde eu salvarei todas as respostas produzidas por mim pelo site urionlinejudge.com.br
